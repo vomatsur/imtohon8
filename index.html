@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fake Store</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🛒 Fake Store</h1>
+  </header>
+
+  <div class="controls">
+    <input type="text" id="search" placeholder="Qidiruv..." />
+    <select id="sort">
+      <option value="default">Saralash</option>
+      <option value="asc">Narx: ⬆</option>
+      <option value="desc">Narx: ⬇</option>
+    </select>
+    <select id="category">
+      <option value="all">Barchasi</option>
+    </select>
+  </div>
+
+  <div id="loading"><div class="loader"></div></div>
+  <div id="product-list"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
